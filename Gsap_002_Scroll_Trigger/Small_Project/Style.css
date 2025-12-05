@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #000;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+
+.Page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.page1{
+    background-color: #151212;
+}
+
+.page2{
+    background-color: #6dc8e1;
+}
+
+.page3{
+    background-color: #110e12;
+}
+
+h1{
+    font-size: 40vw;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
