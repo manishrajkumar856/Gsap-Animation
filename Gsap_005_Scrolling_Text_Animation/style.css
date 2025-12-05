@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Bebas;
+  src: url(./BebasNeue-Regular.ttf);
+}
+
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+}
+
+#page1, #page2, #page3{
+  width: 100%;
+  height: 100%;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+}
+
+.scrolling-div{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  background-color: #92e742;
+}
+h1{
+  font-size: 6rem;
+  color: #000;
+  font-family:sans-serif;
+}
+img{
+  width: 8vw;
+}
+
+.marquew-text{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 1.5vw;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+}
