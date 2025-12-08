@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+  .hero-section .container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: red; */
+  }
+  
+
+  .serv-box{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+
+}
