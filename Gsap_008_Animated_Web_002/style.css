@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+:root{
+    --white-color: #ffff;
+    --gray-color: #a7a6a6;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+button{
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+
+/* ------------------------------- Header Section Started ---------------------------------- */
+
+header{
+    width: 100%;
+    position: fixed;
+    padding: 0rem 3rem;
+}
+
+header .container{
+    width: 100%;
+    padding: 0.8rem 0rem;
+    border-bottom: 0.5px solid var(--gray-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+header .container .container-left nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    & a{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        color: var(--gray-color);
+    }
+}
+
+header .container .container-left .logo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+header .container .container-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .container .container-right .text-btn{
+    background-color: transparent;
+    border: none;
+    color: var(--gray-color);
+}
+
+header .container .container-right .border-btn{
+    background-color: transparent;
+    border: 2px solid var(--white-color);
+    color: var(--white-color);
+    border-radius: 30px;
+}
+
+
+
+
+/* ------------------------------- Header Section Completed --------------------------------- */
